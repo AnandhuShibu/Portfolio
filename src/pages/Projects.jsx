@@ -31,12 +31,13 @@ function Projects() {
   ];
 
   return (
-    <div className="min-h-screen bg-[#0f172a] text-white px-6 sm:px-12 py-16" id="projects">
+    <div className="min-h-screen bg-[#0f172a] text-white pt-[100px] pb-20 px-6 sm:px-12" id="projects">
+
 
       <Navbar/>
 
 
-      <h2 className="text-4xl pt-[100px] font-bold text-center mb-8">Projects</h2>
+      <h2 className="text-4xl font-bold text-gray-300 text-center mb-8">Projects</h2>
       <div className="h-1 w-24 bg-gradient-to-r from-blue-500 to-indigo-500 mx-auto mb-12 rounded"></div>
 
       <div className="grid gap-8 grid-cols-1 sm:grid-cols-2 lg:grid-cols-4">

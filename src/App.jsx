@@ -1,21 +1,54 @@
-import React from 'react'
-import './App.css'
-import Home from './pages/Home'
-import Contact from './pages/Contact'
-import Skills from './pages/Skills'
-import Projects from './pages/Projects'
+// import React from 'react';
+// import './App.css';
+// import Home from './pages/Home';
+// import Contact from './pages/Contact';
+// import Skills from './pages/Skills';
+// import Projects from './pages/Projects';
+// import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+
+// function App() {
+//   return (
+//     <div>
+//       <Router>
+
+//       <Routes>
+//         <Route path='/' element={<Home />} />
+//         <Route path='/skills' element={<Skills />} />
+//         <Route path='/projects' element={<Projects />} />
+//         <Route path='/contact' element={<Contact />} />
+//       </Routes>
+
+//       </Router>
+//     </div>
+//   );
+// }
+
+// export default App;
+
+
+import React from 'react';
+import './App.css';
+import Home from './pages/Home';
+import Contact from './pages/Contact';
+import Skills from './pages/Skills';
+import Projects from './pages/Projects';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
 function App() {
   return (
     <div>
-      
-      <Contact/>
-       {/* <Home/>  */}
-      {/* <Skills/> */}
+      <Router>
+        
+      <Routes>
+        <Route path='/' element={<Home />} />
+        <Route path='/skills' element={<Skills />} />
+        <Route path='/projects' element={<Projects />} />
+        <Route path='/contact' element={<Contact />} />
+      </Routes>
 
-      {/* <Projects/> */}
+      </Router>
     </div>
-  )
+  );
 }
 
-export default App
+export default App;

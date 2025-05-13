@@ -5,12 +5,12 @@ import Navbar from "../components/Navbar";
 function Contact() {
   return (
     <div
-      className="min-h-screen bg-[#0f172a] text-white flex flex-col justify-between px-4 sm:px-6 py-20"
+      className="min-h-screen bg-[#0f172a] text-white pt-[100px] flex flex-col justify-between px-4 sm:px-6 py-20"
       id="contact"
     >
       <Navbar />
       <div className="flex flex-col items-center flex-grow">
-        <h2 className="text-4xl font-bold text-center mb-4">Contact Me</h2>
+        <h2 className="text-4xl font-bold text-gray-300 text-center mb-4">Contact Me</h2>
         <div className="h-1 w-24 bg-gradient-to-r from-blue-500 to-indigo-500 mb-10 rounded"></div>
 
         <form
