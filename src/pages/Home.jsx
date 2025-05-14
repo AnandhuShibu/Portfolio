@@ -20,7 +20,7 @@ function Home() {
 
         
         <img
-          src="Img.JPG"
+          src="pic.jpg"
           alt="Profile"
           className="rounded-full w-48 h-48 object-cover border-4 border-white shadow-lg"
         />
@@ -32,9 +32,11 @@ function Home() {
           in JavaScript, React, Postgresql.
         </p>
 
-        <button className="mt-6 px-6 py-3 border border-dashed border-blue-500 text-blue-500 rounded-md hover:bg-blue-500 hover:text-white transition-all">
-          View My Resume
-        </button>
+        <a href="/Anandhu_shibu.pdf"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="mt-6 inline-block px-6 py-3 border border-dashed border-blue-500 text-blue-500 rounded-md hover:bg-blue-500 hover:text-white transition-all"
+        > View My Resume </a>
 
         <p className="mt-10 text-sm text-gray-400">Connect with me</p>
 
@@ -42,7 +44,7 @@ function Home() {
         <div className="flex gap-6 mt-4 text-2xl text-gray-300">
           
           <a
-            href="https://wa.me/yourwhatsappphonenumber"
+            href="https://wa.me/9526014914"
             target="_blank"
             rel="noopener noreferrer"
             className="hover:text-green-500 transition duration-300"
@@ -52,7 +54,7 @@ function Home() {
 
 
           <a
-          href="tel:+911234567890"
+          href="tel:+919526014914"
           className="text-lg hover:text-yellow-400 transition duration-300"
           >
           <FaPhoneAlt />
@@ -60,14 +62,14 @@ function Home() {
 
 
           <a
-            href="mailto:youremail@example.com"
+            href="mailto:anandhushibu22@gmail.com"
             className="hover:text-red-400 transition duration-300"
           >
             <MdEmail />
           </a>
 
           <a
-            href="https://www.instagram.com/yourusername"
+            href="https://www.instagram.com/ana_dhuuuu"
             target="_blank"
             rel="noopener noreferrer"
             className="hover:text-pink-500 transition duration-300"
@@ -75,7 +77,7 @@ function Home() {
             <FaInstagram />
           </a>
           <a
-            href="https://www.linkedin.com/in/yourusername"
+            href="https://www.linkedin.com/in/anandhu-shibu"
             target="_blank"
             rel="noopener noreferrer"
             className="hover:text-blue-500 transition duration-300"
@@ -85,7 +87,7 @@ function Home() {
 
 
           <a
-            href="https://github.com/yourgithubusername"
+            href="https://github.com/AnandhuShibu"
             target="_blank"
             rel="noopener noreferrer"
             className="hover:text-gray-400 transition duration-300"
