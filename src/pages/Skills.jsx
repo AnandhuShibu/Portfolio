@@ -53,6 +53,11 @@ function Skills() {
     </div>
 
     <div className="bg-[#1e293b] p-6 rounded-xl shadow-md w-36 flex flex-col items-center hover:scale-105 transition">
+      <img src='css.png' alt="title" className="w-12 h-12 mb-4" />
+      <p className="text-sm text-gray-300 font-semibold">CSS</p>
+    </div>
+
+    <div className="bg-[#1e293b] p-6 rounded-xl shadow-md w-36 flex flex-col items-center hover:scale-105 transition">
       <img src='bootstrap.png' alt="title" className="w-12 h-12 mb-4" />
       <p className="text-sm text-gray-300 font-semibold">BOOTSTRAP</p>
     </div>
@@ -85,17 +90,10 @@ function Skills() {
     </div>
     
     </div>
-
-    
-
-
-
   </div>
-
 
   <Footer/>
 
-    
     </div>
   )
 }
