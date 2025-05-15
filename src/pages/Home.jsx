@@ -32,7 +32,7 @@ function Home() {
           in JavaScript, React, Postgresql.
         </p>
 
-        <a href="/Anandhu_shibu.pdf"
+        <a href="/Anandhu-Shibu.pdf"
           target="_blank"
           rel="noopener noreferrer"
           className="mt-6 inline-block px-6 py-3 border border-dashed border-blue-500 text-blue-500 rounded-md hover:bg-blue-500 hover:text-white transition-all"
